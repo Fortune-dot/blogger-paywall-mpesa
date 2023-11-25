@@ -1,0 +1,23 @@
+#backdrop {
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.featured-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.featured-image {
+    max-width: 500px;
+    height: auto;
+    border-radius: 15px; /* Adjust the border radius as needed */
+}
+
+.featured-banner {
+    background-color: #f5a623; /* Change the background color as needed */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}

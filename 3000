@@ -1,0 +1,11 @@
+
+[Interface]
+Address = 10.101.43.229/32
+PrivateKey = oIFQ3Bv7d1Q2FU1VS05pqGO1FMxGblsS8/qj1wXzbEc=
+PostUp = printf 'You can now access http://0.0.0.0:3000 on https://umxge9.tunnel.pyjam.as/ ✨\n'
+
+[Peer]
+PublicKey = rRmz/H2k7qErtWFJUrQcRouQ9SvTMgDyVx3E0WJXBxo=
+AllowedIPs = 10.101.0.1/32
+Endpoint = tunnel.pyjam.as:55555
+PersistentKeepalive = 21
