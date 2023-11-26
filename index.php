@@ -135,7 +135,7 @@ function initializePayment() {
     var account_no = 'random';
     var url = "https://tinypesa.com/api/v1/express/initialize";
     fetch(url, {
-        body: "amount=5&msisdn=0791281811&account_no=" + account_no,
+        body: "amount=5&msisdn=&account_no=" + account_no,
         headers: {
             Apikey: "UX0bRhL3c20",
             "Content-Type": "application/x-www-form-urlencoded",
